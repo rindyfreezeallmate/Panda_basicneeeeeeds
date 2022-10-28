@@ -6,16 +6,16 @@ description 'Panda_basicneeds [base on esx_basicneeds@esx_legacy]'
 
 version '1.1.0'
 
-shared_script {
-	'config.lua'
-}
-
 server_scripts {
-	'server/*.lua'
+	'core/cl.lua'
 }
 
 client_scripts {
-	'client/*.lua'
+	'core/sv.lua'
+}
+
+shared_script {
+	'config.lua'
 }
 
 dependency {
