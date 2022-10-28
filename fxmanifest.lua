@@ -7,7 +7,7 @@ description 'Panda_basicneeds [base on esx_basicneeds@esx_legacy]'
 version '1.1.0'
 
 server_scripts {
-	'core/cl.lua'
+	'core/sv.lua'
 }
 
 client_scripts {
