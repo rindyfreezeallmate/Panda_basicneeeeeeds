@@ -11,7 +11,7 @@ server_scripts {
 }
 
 client_scripts {
-	'core/sv.lua'
+	'core/cl.lua'
 }
 
 shared_script {
